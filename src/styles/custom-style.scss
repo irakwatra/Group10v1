@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+
+body{
+  background-color: rgb(206, 215, 229);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card, .card-img, .card-img-top {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.tabs{
+  background-color: rgb(255, 255, 255);
+}
+
+.tabs:hover{
+  background-color: rgb(176, 255, 152);
+}
+
+.back1{
+  background: rgb(33,69,133);
+  background: linear-gradient(90deg, rgba(33,69,133,1) 2%, rgba(147,160,246,1) 40%, rgba(147,160,246,1) 59%, rgba(33,69,133,1) 96%);
+}
